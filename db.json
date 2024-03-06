@@ -1,11 +1,21 @@
 {
-  "posts": [
+"users":[
     {
       "id": 1,
-      "title": "hello"
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "password": "123456",
+      "movie_favorites": [
+        {
+          "id": 1,
+          "title": "The Shawshank Redemption",
+          "year": 1994,
+          "genre": "Drama",
+          "director": "Frank Darabont",
+          "plot": "Two imprisoned",
+          "poster": "https://www.imdb.com/title/tt0111161/mediaviewer/rm2488434432"
+        }
+      ]
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
